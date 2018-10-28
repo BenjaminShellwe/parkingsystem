@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.box {
+	width: 100%;
+	height: 800px;
+	background-color: #3799E2;
+	overflow: hidden;
+}
+
+.w {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.box .title {
+	height: 100px;
+	width: 800px;
+	line-height: 100px;
+	padding-left: 50px;
+	background-color: #1B4FA5;
+	border-radius: 57px;
+	text-align: center;
+	margin: 40px auto;
+}
+
+.box h1 {
+	font-size: 43px;
+	color: #fff;
+	letter-spacing: 30px;
+	padding-left: 22px;
+	margin-left: -38px;
+	font-weight: bold;
+}
+
+.box .form {
+	width: 550px;
+	height: 476px;
+	margin: auto;
+	background-color: #1AD0C0;
+}
+
+.box .form h3 {
+	padding: 30px 0;
+	text-align: center;
+	letter-spacing: 5px;
+	font-size: 24px;
+	color: #fffada;
+	font-weight: bold;
+}
+
+.box .txt {
+	margin: 50px 100px;
+}
+
+.box .txt p {
+	margin-bottom: 36px;
+}
+
+.box .txt .lab {
+	letter-spacing: 12px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	padding-right: 10px;
+}
+
+.box .txt .user {
+	width: 220px;
+	height: 24px;
+	padding-left: 6px;
+}
+
+.box .txt .usertype {
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.box  .txt .power {
+	font-size: 14px;
+	width: 224px;
+	height: 24px;
+}
+
+.box .txt .btn {
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000;
+	margin-left: 37px;
+	margin-top: 20px;
+}
+
+.box  .register a {
+	/*text-decoration: none;*/
+	color: #fffada;
+	letter-spacing: 8px;
+}
+
+.box .txt .register {
+	float: right;
+	font-size: 16px;
+}

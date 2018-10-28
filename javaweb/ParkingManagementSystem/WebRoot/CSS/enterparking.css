@@ -1,0 +1,118 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+input {
+	outline-style: none;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.title {
+	height: 80px;
+	width: 100%;
+	/*background-color: #559677;*/
+	background-color: #A9CEBB;
+}
+
+.title h1 {
+	font-size: 30px;
+	letter-spacing: 10px;
+	margin-left: 30%;
+	color: #3A8467;
+	line-height: 80px;
+}
+
+.outer {
+	width: 100%;
+	height: 570px;
+	background-color: #CBE5DA;
+}
+
+.outer .aside, .outer .content {
+	float: left;
+}
+
+.outer .aside {
+	margin: 20px 15px 0 0;
+	width: 25%;
+	height: 100%;
+	background-color: #E8EDE8;
+}
+
+.outer .content {
+	width: 71%;
+	height: 500px;
+	margin-top: 20px;
+	background-color: #F4FFFB;
+	padding: 30px 0 20px 20px;
+}
+
+.outer .content .icon {
+	font-size: 18px;
+	font-weight: 500;
+	padding: 10px;
+}
+
+.outer .content .txt {
+	font-size: 18px;
+	padding: 2px 10px;
+}
+
+.outer .content p {
+	margin-bottom: 15px;
+}
+
+.outer .content .btn1, .outer .content .btn2 {
+	width: 70px;
+	height: 30px;
+	margin-left: 90px;
+}
+
+.outer .content .back {
+	display: inline-block;
+	width: 70px;
+	height: 30px;
+	background-color: #1CC676;
+	text-align: center;
+	line-height: 30px;
+	margin: 10px 20px;
+}
+
+.outer .content-main {
+	width: 100%;
+	height: 350px;
+	overflow-y: scroll;
+}
+
+.outer .content-main .content-pack {
+	margin: 10px;
+	padding: 10px 10px 25px;
+	width: 94%;
+	border: 4px solid #eee;
+}
+
+.outer .content-pack th, .outer .content-pack td {
+	width: 1%;
+	text-align: center;
+	padding: 5px 0;
+}
+
+.outer .content-pack a {
+	display: inline-block;
+	height: 40px;
+	height: 25px;
+	margin-right: 5px;
+}
+
+.footer {
+	height: 27px;
+	width: 100%;
+	background-color: #DBEEE8;
+	position: fixed;
+	bottom: 0;
+}

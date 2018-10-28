@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<display-name></display-name>
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>servlet.Login</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>PowerServlet</servlet-name>
+		<servlet-class>servlet.PowerServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UserServlet</servlet-name>
+		<servlet-class>servlet.UserServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Parking</servlet-name>
+		<servlet-class>servlet.Parking</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>EnterParkingServlet</servlet-name>
+		<servlet-class>servlet.EnterParkingServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ExitParkingServlet</servlet-name>
+		<servlet-class>servlet.ExitParkingServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ParkingChargeServlet</servlet-name>
+		<servlet-class>servlet.ParkingChargeServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>SuperPowerServlet</servlet-name>
+		<servlet-class>servlet.SuperPowerServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ManagePowerServlet</servlet-name>
+		<servlet-class>servlet.ManagePowerServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UserUIServlet</servlet-name>
+		<servlet-class>servlet.UserUIServlet</servlet-class>
+	</servlet>
+
+
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>PowerServlet</servlet-name>
+		<url-pattern>/PowerServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UserServlet</servlet-name>
+		<url-pattern>/UserServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Parking</servlet-name>
+		<url-pattern>/Parking</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>EnterParkingServlet</servlet-name>
+		<url-pattern>/EnterParkingServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ExitParkingServlet</servlet-name>
+		<url-pattern>/ExitParkingServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ParkingChargeServlet</servlet-name>
+		<url-pattern>/ParkingChargeServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SuperPowerServlet</servlet-name>
+		<url-pattern>/SuperPowerServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ManagePowerServlet</servlet-name>
+		<url-pattern>/ManagePowerServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UserUIServlet</servlet-name>
+		<url-pattern>/UserUIServlet</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
